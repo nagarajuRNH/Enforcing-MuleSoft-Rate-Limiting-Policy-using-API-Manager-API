@@ -1,5 +1,4 @@
-# Rate Limiting policies based on a service level acces(SLA) in Anypoint Platform
-
+# Enforcing MuleSoft Rate Limiting Policy(SLA based) using API Manager API
                         Rate Limiting policies based on a service level access (SLA) are client ID-based policies that use the cliend_id as a reference to impose limits on the number of requests that each application can make within a period of time. To use these policies, you need to create at least one SLA tier to define request limits.
 
 - Create a RAML in the Design Centre with traits  with client\_id and client\_secret  as shown below.
